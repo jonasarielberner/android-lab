@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="catmempresaconsultoria.example.com.atmempresaconsultoria.ClienteActivity"
+    android:background="#FFFFFFFF">
+
+    <ImageView
+        android:id="@+id/imageViewCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/detalhe_cliente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCliente1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cliente1"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCliente"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCliente" />
+
+    <ImageView
+        android:id="@+id/imageViewCliente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cliente2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCliente"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCliente1" />
+
+    <TextView
+        android:id="@+id/textViewCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nossos Clientes"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewCliente1"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCliente"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCliente" />
+
+    <TextView
+        android:id="@+id/textViewCliente1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Empresa de desenvolvimento de sistemas"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCliente"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCliente1" />
+
+    <TextView
+        android:id="@+id/textViewCliente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Empresa de auditoria"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCliente"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCliente2" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="catmempresaconsultoria.example.com.atmempresaconsultoria.ServicoActivity">
+
+    <ImageView
+        android:id="@+id/imageViewServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/detalhe_servico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Serviços"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewServico"
+        app:layout_constraintStart_toEndOf="@+id/imageViewServico"
+        app:layout_constraintTop_toTopOf="@+id/imageViewServico" />
+
+    <TextView
+        android:id="@+id/textViewServico1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Consutoria"
+        app:layout_constraintStart_toStartOf="@+id/imageViewServico"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewServico" />
+
+    <TextView
+        android:id="@+id/textViewServico2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Processos"
+        app:layout_constraintStart_toStartOf="@+id/imageViewServico"
+        app:layout_constraintTop_toBottomOf="@+id/textViewServico1" />
+
+    <TextView
+        android:id="@+id/textViewServico3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Acompanhamento e projetos"
+        app:layout_constraintStart_toStartOf="@+id/imageViewServico"
+        app:layout_constraintTop_toBottomOf="@+id/textViewServico2" />
+
+</android.support.constraint.ConstraintLayout>

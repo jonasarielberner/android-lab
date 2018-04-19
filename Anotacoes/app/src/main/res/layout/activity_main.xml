@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anotacoes.example.com.anotacoes.MainActivity"
+    android:background="@drawable/fundo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo"
+        android:id="@+id/logoId"
+        />
+
+
+    <EditText
+        android:id="@+id/anotacoesId"
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:background="@drawable/fundo_anotacao"
+        android:gravity="start"
+        android:paddingBottom="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#41342E"
+        android:textSize="@dimen/texto_anotacoes"
+        app:layout_constraintLeft_toLeftOf="@id/logoId"
+        app:layout_constraintRight_toRightOf="@id/logoId"
+        app:layout_constraintTop_toBottomOf="@id/logoId" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_salvar"
+        app:layout_constraintLeft_toLeftOf="@id/anotacoesId"
+        app:layout_constraintRight_toRightOf="@id/anotacoesId"
+        app:layout_constraintTop_toBottomOf="@id/anotacoesId"
+        android:id="@+id/botaoSalvarId"
+        />
+
+</android.support.constraint.ConstraintLayout>

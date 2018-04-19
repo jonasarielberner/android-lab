@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="somdosbichos.example.com.somdosbichos.MainActivity"
+    android:background="#f5e9b9"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <android.support.v7.widget.FitWindowsLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cao"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/caoId"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gato"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/gatoId"/>
+
+        </android.support.v7.widget.FitWindowsLinearLayout>
+
+    <android.support.v7.widget.FitWindowsLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leao"
+            android:layout_gravity="center_horizontal"
+        android:id="@+id/leaoId"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/macaco"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/macacoId"/>
+
+
+    </android.support.v7.widget.FitWindowsLinearLayout>
+
+    <android.support.v7.widget.FitWindowsLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ovelha"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ovelhaID"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vaca"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/vacaId"/>
+
+
+    </android.support.v7.widget.FitWindowsLinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/direitos"
+        android:layout_gravity="center"/>
+
+</android.support.v7.widget.FitWindowsLinearLayout>

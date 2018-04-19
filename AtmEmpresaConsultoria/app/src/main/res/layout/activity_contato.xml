@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="catmempresaconsultoria.example.com.atmempresaconsultoria.ContatoActivity"
+    android:background="#FFFFFFFF">
+
+    <ImageView
+        android:id="@+id/imageViewContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/detalhe_contato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/texto_contato"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewContato"
+        app:layout_constraintStart_toEndOf="@+id/imageViewContato"
+        app:layout_constraintTop_toTopOf="@+id/imageViewContato" />
+
+    <TextView
+        android:id="@+id/textViewContato1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="E-mail: jonasarielberner@gmail.com"
+        app:layout_constraintStart_toStartOf="@+id/imageViewContato"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewContato" />
+
+    <TextView
+        android:id="@+id/textViewContato2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Telefone: (47) 3370 2393"
+        app:layout_constraintStart_toStartOf="@+id/imageViewContato"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContato1" />
+
+    <TextView
+        android:id="@+id/textViewContato3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Celular: (47) 99696 4644"
+        app:layout_constraintStart_toStartOf="@+id/imageViewContato"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContato2" />
+
+
+</android.support.constraint.ConstraintLayout>
